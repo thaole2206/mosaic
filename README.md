@@ -20,7 +20,12 @@ For example:
 The images below show an example of how the mosaic tiles are matched to the details of the original image:
 
 ![Mosaic Image](https://github.com/thaole2206/mosaic/blob/master/Results/mosaic3.jpeg)  
+
 <span class="smallText">Original</span>
+![Mosaic Image](https://github.com/thaole2206/mosaic/blob/master/target3.jpg)  
+
+<span class="smallText">Grey Scale Result</span>
+![Mosaic Image](https://github.com/thaole2206/mosaic/blob/master/mosaic3LA.png)  
 
 Producing large, highly detailed mosaics can take some time - you should experiment with the various [configuration parameters](https://github.com/codebox/mosaic/blob/master/mosaic.py#L6) explained in the source code to find the right balance between image quality and render time.
 
