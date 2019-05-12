@@ -14,16 +14,13 @@ Run the utility from the command line, as follows:
 
 For example:
 
-<pre>python mosaic.py game_of_thrones_poster.jpg /home/admin/images/screenshots
+<pre>python mosaic.py target3.jpg flags
 </pre>
 
 The images below show an example of how the mosaic tiles are matched to the details of the original image:
 
-![Mosaic Image](https://codebox.net/assets/images/mosaic/mosaic_small.jpg)  
+![Mosaic Image](https://github.com/thaole2206/mosaic/blob/master/Results/mosaic3.jpeg)  
 <span class="smallText">Original</span>
-
-[![Mosaic Image Detail](https://codebox.net/assets/images/mosaic/mosaic_detail.jpg)](https://codebox.net/assets/images/mosaic/mosaic_large.jpg)  
-<span class="smallText">Mosaic Detail (click through for [full mosaic](https://codebox.net/assets/images/mosaic/mosaic_large.jpg) ~15MB)</span>
 
 Producing large, highly detailed mosaics can take some time - you should experiment with the various [configuration parameters](https://github.com/codebox/mosaic/blob/master/mosaic.py#L6) explained in the source code to find the right balance between image quality and render time.
 
